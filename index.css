@@ -1,0 +1,73 @@
+/* Global Styles */
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-image: url('./cyril.jpg');
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    color: #dbdee7;
+}
+
+/* Header and Navigation */
+header {
+    background-color: rgba(182, 171, 171, 0.7);
+    padding: 10px 0;
+}
+
+h2 {
+    background-color: #1d1b1b;
+
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #f0e5e5;
+    font-size: 18rm;
+    padding: 5px 10px;
+    transition: color 0.3s ease;
+}
+
+/* Main Section */
+main {
+    padding: 40px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.biographie h2 {
+    color: #ff0000;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.biographie p {
+    font-size: 18px;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Footer */
+footer {
+    background-color: rgba(0, 0, 0, 0.7);
+    text-align: center;
+    padding: 15px;
+}
+
+footer h3 {
+    color: #fff;
+    font-size: 20px;
+}
+
